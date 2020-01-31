@@ -10,6 +10,14 @@ const Tetris = () => {
   return (
     <div>
       <Stage></Stage>
+
+      <aside>
+        <div>
+          <Display text="Score" />
+          <Display text="Rows" />
+          <Display text="Level" />
+        </div>
+      </aside>
     </div>
   );
 };
