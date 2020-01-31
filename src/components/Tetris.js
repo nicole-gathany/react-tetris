@@ -11,7 +11,7 @@ import StartButton from "./StartButton";
 const Tetris = () => {
   return (
     <div>
-      <Stage></Stage>
+      <Stage stage={createStage()} />
 
       <aside>
         <div>
