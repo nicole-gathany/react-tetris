@@ -3,7 +3,7 @@ import { StyledCell } from "./styles/StyledCell";
 import { TETROMINOS } from "../tetrominos";
 
 const Cell = ({ type }) => (
-  <StyledCell type={type} color={TETROMINOS}>
+  <StyledCell type={"L"} color={TETROMINOS["L"].color}>
     cell
   </StyledCell>
 );
